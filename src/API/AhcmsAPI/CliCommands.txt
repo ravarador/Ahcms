@@ -1,0 +1,2 @@
+﻿dotnet add "AhcmsAPI" package  Microsoft.EntityFrameworkCore.InMemory
+dotnet add "AhcmsAPI" package Microsoft.EntityFrameworkCore.SqlServer
