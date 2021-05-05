@@ -5590,11 +5590,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JRA-\\source\\repos\\AhcmsAPI\\AhcmsAPI\\AhcmsAPI.csproj",
+      "projectUniqueName": "C:\\Users\\JRA-\\source\\repos\\Ahcms\\src\\API\\AhcmsAPI\\AhcmsAPI.csproj",
       "projectName": "AhcmsAPI",
-      "projectPath": "C:\\Users\\JRA-\\source\\repos\\AhcmsAPI\\AhcmsAPI\\AhcmsAPI.csproj",
+      "projectPath": "C:\\Users\\JRA-\\source\\repos\\Ahcms\\src\\API\\AhcmsAPI\\AhcmsAPI.csproj",
       "packagesPath": "C:\\Users\\JRA-\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\JRA-\\source\\repos\\AhcmsAPI\\AhcmsAPI\\obj\\",
+      "outputPath": "C:\\Users\\JRA-\\source\\repos\\Ahcms\\src\\API\\AhcmsAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\JRA-\\AppData\\Roaming\\NuGet\\NuGet.Config",

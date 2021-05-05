@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EkD/bJUgOPXSVZ0WzSpk0BS/PH3VfkHKgEW9y6niJnSmfTwEc1CskbQaYMcDj6VAjjEXaNcT8iJhgrCX91JOxg==",
+  "dgSpecHash": "lInRickYSB5ZSAFz7ybzzXFoOeCPkZ55MLDUqqdl27Q9W4iSTQ+EnjbPA1c8yLoJNKsggv5c8gwjjzCUn3Kmag==",
   "success": true,
-  "projectFilePath": "C:\\Users\\JRA-\\source\\repos\\AhcmsAPI\\AhcmsAPI\\AhcmsAPI.csproj",
+  "projectFilePath": "C:\\Users\\JRA-\\source\\repos\\Ahcms\\src\\API\\AhcmsAPI\\AhcmsAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\JRA-\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\5.0.1\\microsoft.aspnetcore.authentication.jwtbearer.5.0.1.nupkg.sha512",
     "C:\\Users\\JRA-\\.nuget\\packages\\microsoft.aspnetcore.authentication.openidconnect\\5.0.1\\microsoft.aspnetcore.authentication.openidconnect.5.0.1.nupkg.sha512",
