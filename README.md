@@ -4,18 +4,54 @@ What is <b>AHCMS</b>?
 A contact tracing solution to the rising number of Covid-19 cases in the Philippine. In every establishment that utilizes AHCMS, processing time
 of information gathering is significantly shorter than manually inputting data of each visitor.
 
-## COMMON MODULES
+<hr>
 
-#### Login page
+## How to setup?
+
+### ARDUINO SETUP
+
+#### Arduino Wiring Diagram
+![image](https://user-images.githubusercontent.com/41227131/117397394-9fd7ab80-af2e-11eb-80c9-8b982764143f.png)
+
+##### <i> After setting up the Arduino hardware, compile and upload the code to the Arduino. </i>
+
+
+### API SETUP
+
+##### 1. Go to your appsettings.json file then edit your connection string.
+
+```c#
+"AhcmsContext": "Data Source=InsertYourServerNameHere; Initial Catalog=AhcmsContext;"
+```
+
+##### 2. Run your Package Manager Console and execute the following code:
+###### <i>This code creates migrations for your API database. </i>
+``` c#
+add-migration InitialDb
+```
+###### <i>This code runs the migration code then updates the database. </i>
+``` c#
+dotnet ef database update --startup-project AhcmsAPI --context AhcmsContext
+```
+
+### WINDOWS APPLICATION SETUP
+
+<hr>
+
+## User Interface
+
+### COMMON MODULE
+
+##### Login page
 ![image](https://user-images.githubusercontent.com/41227131/117114981-1190e780-adbf-11eb-9b7b-7984a2115fb8.png)
 
-#### Dashboard tab
+##### Dashboard tab
 ![image](https://user-images.githubusercontent.com/41227131/117115037-25d4e480-adbf-11eb-8545-d26383fbc281.png)
 
-## ADMIN MODULES
+### ADMIN MODULE
 
-#### Admin tab
+##### Admin tab
 ![image](https://user-images.githubusercontent.com/41227131/117115721-1609d000-adc0-11eb-974d-1f2fa41fabac.png)
 
-#### Register tab
+##### Register tab
 ![image](https://user-images.githubusercontent.com/41227131/117115120-3f762c00-adbf-11eb-954f-0dcc8b2752d9.png)
