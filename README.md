@@ -33,10 +33,16 @@ add-migration InitialDb
 ``` c#
 dotnet ef database update --startup-project AhcmsAPI --context AhcmsContext
 ```
+##### 3. Setup for API is complete. You can now run the API and copy the API address to be used in setting up the windows application.
+
+
 
 ### WINDOWS APPLICATION SETUP
 
-<hr>
+##### 1. Go to solution explorer. Right click the project then select properties.
+##### 2. In the properties page, select the Settings tab. You will find the ApiAddress settings there.
+![image](https://user-images.githubusercontent.com/41227131/117402976-02827480-af3a-11eb-8c56-449b688cb5a9.png)
+##### 3. Change its value to the API address you have right now. Make sure API is running when you run the windows application.
 
 ## User Interface
 
